@@ -51,7 +51,7 @@ export default function ProfileStats() {
                 Customize banners, frames, and animations with cosmetic collectibles you unlock as you play.
               </div>
             </div>
-            <div className="pointer-events-none absolute -inset-6 -z-0 blur-3xl">
+            <div className="pointer-events-none absolute -inset-6 z-0 blur-3xl">
               <div className="h-full w-full rounded-3xl bg-gradient-to-tr from-sky-500/20 via-cyan-400/10 to-fuchsia-500/20" />
             </div>
           </div>

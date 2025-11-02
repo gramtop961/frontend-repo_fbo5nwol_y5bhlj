@@ -3,7 +3,7 @@ import { Sword, Users, Trophy, Shield } from 'lucide-react';
 
 const ModeCard = ({ icon: Icon, title, desc, cta }) => (
   <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur transition hover:border-sky-400/30 hover:bg-white/10">
-    <div className="pointer-events-none absolute -inset-10 -z-0 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100">
+    <div className="pointer-events-none absolute -inset-10 z-0 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100">
       <div className="h-full w-full bg-gradient-to-tr from-sky-500/10 via-blue-500/10 to-fuchsia-500/10" />
     </div>
     <div className="relative z-10 flex items-start gap-4">
